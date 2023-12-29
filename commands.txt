@@ -1,0 +1,76 @@
+Agenda: 
+
+1 - Set up github repositories
+a. new environment
+b. setup.py 
+c. requirements.txt
+
+2. Src folder and build the package
+
+---------------------------------------------------------------------------------------------------------
+The given commands perform the following tasks:
+
+conda create -p venv python==3.8 -y
+: Creates a new Python 3.8 virtual environment named "venv".
+
+conda activate venv/
+: Activates the "venv" virtual environment.
+
+git init
+: Initializes a new Git repository in the current directory.
+
+git add README.md
+: Adds the README.md file to the staging area.
+
+git commit -m "First Commit"
+: Commits the staged changes with the message "First Commit".
+
+git status
+: Displays the current status of the Git repository.
+
+git branch -M main
+: Renames the default branch from "master" to "main".
+
+git remote add origin https://github.com/ajo79/MLproject.git
+: Adds a remote named "origin" pointing to the GitHub repository.
+
+git remote -v
+: Lists all the remote repositories along with their URLs.
+
+git config --global user.name "ajo79"
+: Sets the global Git username to "ajo79".
+
+git config --global user.email amit.joshi79@outlook.com
+: Sets the global Git email address to "amit.joshi79@outlook.com".
+
+git push -u origin main
+: Pushes the committed changes to the "main" branch on the remote repository named "origin".
+
+git pull
+: Fetches changes from the remote repository and merges them into the local branch.
+
+conda activate e:\work\TrueLancer\Project_44_ML_and_python\MLproject\venv
+: Activates the virtual environment located at the specified path.
+
+pip install -r .\requirements.txt
+: Installs Python package dependencies listed in the "requirements.txt" file.
+
+These commands collectively set up a Python environment, initialize a Git repository, perform commits,
+configure Git settings, connect to a remote repository on GitHub, and manage dependencies using Conda and pip.
+------------------------------------------------------------------------------------------------------------------
+conda create -p venv python==3.8 -y
+conda activate venv/
+git init
+git add README.md
+git commit -m "First Commit"
+git status
+git branch -M main
+git remote add origin https://github.com/ajo79/MLproject.git
+git remote -v
+git config --global user.name "ajo79"
+git config --global user.email amit.joshi79@outlook.com
+git push -u origin main
+git pull      
+conda activate e:\work\TrueLancer\Project_44_ML_and_python\MLproject\venv
+pip install -r .\requirements.txt
+------------------------------------------------------------------------------------------------------------------
