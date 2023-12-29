@@ -76,4 +76,10 @@ pip install -r .\requirements.txt
 git add .
 git commit -m "Setup"
 git push -u origin main
+
+git status
+git add . 
+git commit -m "logging and exceptions"
+git push -u origin main
+
 ------------------------------------------------------------------------------------------------------------------
